@@ -1,0 +1,148 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --link-color: #434455;
+    --logo-button-color: #4D5AE5;
+    --hover-focus-color: #404BBF;
+    --footerlogo-bcg-color: #F4F4FD;
+    --white-color: #ffffff;
+
+}
+
+
+
+
+
+.page {
+    font-family: "Roboto", "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+
+.point {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* header */
+
+.logo {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--logo-button-color);
+    text-transform: uppercase;
+}
+
+.header-logo {
+    color: var(--primary-text-color);
+}
+
+.footer-logo {
+    color: var(--footerlogo-bcg-color);
+}
+
+.menu-list {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.menu-link {
+    color: var(--primary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--hover-focus-color);
+}
+
+
+.contact-list {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+}
+
+.contact-link {
+    color: var(--link-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--hover-focus-color);
+}
+
+
+
+/* hero */
+.hero {
+    background-color: var(--primary-text-color);
+    ;
+}
+
+.hero-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: var(--white-color);
+}
+
+.hero-button {
+    background-color: var(--logo-button-color);
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* quality */
+
+
+
+
+
+/* team */
+
+.team {
+    background-color: var(--footerlogo-bcg-color);
+}
+
+.team-items {
+    background-color: var(--white-color);
+}
+
+/* footer */
+
+.foot {
+    background-color: var(--primary-text-color);
+    ;
+}
+
+.footer-text {
+    color: var(--white-color);
+}
+
+
+
+/* portfolio*/
+
+
+.filters-button {
+    background-color: var(--footerlogo-bcg-color);
+    color: var(--logo-button-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 0;
+}
