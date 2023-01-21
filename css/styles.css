@@ -1,10 +1,11 @@
 :root {
     --primary-text-color: #2E2F42;
     --link-color: #434455;
-    --logo-button-color: #4D5AE5;
+    --logo-btn-color: #4D5AE5;
     --hover-focus-color: #404BBF;
     --footerlogo-bcg-color: #F4F4FD;
     --white-color: #ffffff;
+    --filter-btn: #E7E9FC;
 
 }
 
@@ -14,6 +15,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
@@ -29,8 +31,8 @@ body {
     font-family: "Raleway";
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
-    color: var(--logo-button-color);
+    line-height: 1.33;
+    color: var(--logo-btn-color);
     text-transform: uppercase;
 }
 
@@ -46,7 +48,7 @@ body {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -64,7 +66,7 @@ body {
 .contact-list {
     font-family: 'Roboto';
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--link-color);
 }
@@ -89,27 +91,49 @@ body {
 
 .hero-title {
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    text-align: center;
     color: var(--white-color);
 }
 
-.hero-button {
-    background-color: var(--logo-button-color);
+.hero-btn {
+    background-color: var(--logo-btn-color);
     color: var(--white-color);
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
-.hero-button:hover,
-.hero-button:focus {
-    background: #4D5AE5;
+.hero-btn:hover,
+.hero-btn:focus {
+    background: var(--logo-btn-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
 }
 
-/* quality */
+.text-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
 
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
 
 
 
@@ -140,14 +164,15 @@ body {
 /* portfolio*/
 
 
-.filters-button {
+.filters-btn {
     background-color: var(--footerlogo-bcg-color);
-    color: var(--logo-button-color);
-    font-family: 'Roboto';
+    color: var(--logo-btn-color);
+    font-family: 'Roboto' sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     cursor: pointer;
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--filter-btn);
     border-radius: 4px;
 }
