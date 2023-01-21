@@ -28,7 +28,7 @@ body {
 /* header */
 
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -99,11 +99,11 @@ body {
 .hero-btn {
     background-color: var(--logo-btn-color);
     color: var(--white-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -111,9 +111,11 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background: var(--logo-btn-color);
+    background: var(--hover-focus-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     border-radius: 4px;
+    letter-spacing: 0.04em;
+
 }
 
 .text-title {
@@ -128,7 +130,6 @@ body {
 }
 
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -157,6 +158,11 @@ body {
 
 .footer-text {
     color: var(--white-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+
 }
 
 
@@ -167,12 +173,24 @@ body {
 .filters-btn {
     background-color: var(--footerlogo-bcg-color);
     color: var(--logo-btn-color);
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     cursor: pointer;
     border: 1px solid var(--filter-btn);
     border-radius: 4px;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    background: var(--logo-btn-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
 }
